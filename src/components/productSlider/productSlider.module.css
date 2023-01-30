@@ -1,0 +1,21 @@
+.sliderWrapper {
+  margin: 70px auto 50px;
+}
+
+.sliderImg img {
+  height: 400px;
+  object-fit: contain;
+  object-position: top;
+}
+
+@media only screen and (max-width: 768px) {
+  .sliderImg img {
+    height: 300px !important;
+  }
+  .container h3 {
+    font-size: 36px;
+  }
+  .container p {
+    font-size: 18px;
+  }
+}
